@@ -1,21 +1,17 @@
 {
   "expo": {
-    "name": "Shree Mahalaxmi Agency, Ajara",
+    "name": "Shree Mahalaxmi Agency",
     "slug": "shreemahalaxmiagency",
     "owner": "25ugch24220",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": false,
-      "bundleIdentifier": "com.shreemahalaxmiagency.ajara"
-    },
-    "android": {
-      "package": "com.shreemahalaxmiagency.ajara",
-      "versionCode": 1,
-      "permissions": []
-    }
 
+    "extra": {
+      "eas": {
+        "projectId": "b1db3014-af0f-4b81-bd75-6992ef967c5b"
+      }
+    }
   }
 }
