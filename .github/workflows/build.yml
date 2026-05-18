@@ -27,4 +27,4 @@ jobs:
         run: npx expo login -u 25ugch24220 -p aniket@2007
 
       - name: Build APK
-        run: eas build -p android --profile preview --non-interactive
+        run: eas build --clear-cache -p android --profile preview --non-interactive
