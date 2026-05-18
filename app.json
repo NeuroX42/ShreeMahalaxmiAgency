@@ -4,6 +4,11 @@
     "slug": "shreemahalaxmiagency",
     "owner": "25ugch24220",
     "version": "1.0.0",
+
+    "android": {
+      "package": "com.shreemahalaxmiagency.app"
+    },
+
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "assetBundlePatterns": ["**/*"],
