@@ -9,10 +9,11 @@
       "package": "com.shreemahalaxmiagency.app"
     },
 
-    "orientation": "portrait",
-    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
 
-    "assetBundlePatterns": ["**/*"],
+    "orientation": "portrait",
 
     "extra": {
       "eas": {
