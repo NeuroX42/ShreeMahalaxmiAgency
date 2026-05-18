@@ -14,11 +14,7 @@
       "package": "com.shreemahalaxmiagency.ajara",
       "versionCode": 1,
       "permissions": []
-    },
-    "extra": {
-      "eas": {
-        "projectId": "shreemahalaxmiagency-ajara"
-      }
     }
+
   }
 }
