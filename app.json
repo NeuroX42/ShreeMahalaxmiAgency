@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Shree Mahalaxmi Agency, Ajara",
+    "slug": "shreemahalaxmiagency",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.shreemahalaxmiagency.ajara"
+    },
+    "android": {
+      "package": "com.shreemahalaxmiagency.ajara",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "extra": {
+      "eas": {
+        "projectId": "shreemahalaxmiagency-ajara"
+      }
+    }
+  }
+}
