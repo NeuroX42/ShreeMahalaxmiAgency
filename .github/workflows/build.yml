@@ -26,8 +26,5 @@ jobs:
       - name: Login to Expo
         run: npx expo login -u 25ugch24220 -p aniket@2007
 
-      - name: Configure EAS
-        run: npx eas-cli project:init --non-interactive
-
       - name: Build APK
         run: eas build -p android --profile preview --non-interactive
