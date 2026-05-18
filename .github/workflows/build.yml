@@ -10,21 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - uses: expo/expo-github-action@v8
+      - name: Setup Expo and EAS
+        uses: expo/expo-github-action@v8
         with:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
 
-      - run: npm install
+      - name: Install dependencies
+        run: npm install
 
-      - name: Login to Expo
-        run: npx expo login -u 25ugch24220 -p aniket@2007
+      - name: Expo Prebuild
+        run: npx expo prebuild --clean
 
       - name: Build APK
         run: eas build --clear-cache -p android --profile preview --non-interactive
